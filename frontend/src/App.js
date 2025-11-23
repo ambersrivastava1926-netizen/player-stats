@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const BACKEND = "http://127.0.0.1:8000"; // Backend URL
+const BACKEND = "https://player-stats.onrender.com";  // Backend URL
 
 export default function App() {
   const [players, setPlayers] = useState([]);
